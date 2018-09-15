@@ -1,0 +1,38 @@
+body {
+    background-image: url(../img/Classic_Style.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+main {
+    text-align: center;
+}
+
+.title {
+    text-align: right;
+    padding-top: 4.5%;
+}
+
+h1 {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+button {
+    width: 15%;
+    background-color: #F9C452;
+    color: black;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.board {
+    text-align: center;
+}
+
