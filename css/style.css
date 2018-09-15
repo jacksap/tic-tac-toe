@@ -6,33 +6,55 @@ body {
 }
 
 main {
+    width: 100%;
+    background: url("../img/catBookBoard.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    position: static;
+}
+
+.board {
+    width: auto;
     text-align: center;
 }
 
 .title {
     text-align: right;
-    padding-top: 4.5%;
-}
-
-h1 {
-    color:black;
-    font-weight: bold;
-    text-align: center;
-    font-size: 60px;
+    padding-top: 0.2%;
 }
 
 button {
-    width: 15%;
     background-color: #F9C452;
     color: black;
     font-family: 'Nanum Pen Script', cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     border-color: black;
-    border-width: 3px;
+    border-width: 1.5px;
+    width: 15%;
+    position: center;
+    
 }
 
-.board {
-    text-align: center;
+
+h1 {
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 0.5%;
 }
 
+#tiles {
+    display: inline;
+}
+
+p {
+    position: fixed;
+    bottom: 0;
+    Left: 0;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
