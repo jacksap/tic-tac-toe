@@ -9,31 +9,28 @@
 	<title>Tic-Tac-Toe</title>
 </head>
 <body>
-	<div class="title"><img src="img/Neko_Atsume_Kitty_Collector_Title.png"></div>
-	<main>
-		<div class="board">
-			<div id="header">
-				<h1>TIC-TAC-TOE</h1>
+	<div>
+		<div class="title"><img src="img/Neko_Atsume_Kitty_Collector_Title.png"></div>
+		<main>
+			<div class="board">
+				<div id="header">
+					<h1>TIC-TAC-TOE</h1>
+				</div>
+				<div id="gameTiles"><img id="1" src="img/unflipped_tile.png"> <img id="2" src="img/unflipped_tile.png"> <img id="3" src="img/unflipped_tile.png"><br>
+				<img id="4" src="img/unflipped_tile.png"> <img id="5" src="img/unflipped_tile.png"> <img id="6" src="img/unflipped_tile.png"><br>
+				<img id="7" src="img/unflipped_tile.png"> <img id="8" src="img/unflipped_tile.png"> <img id="9" src="img/unflipped_tile.png"></div>
+				<div>
+					<button>RESET</button>
+				</div>
 			</div>
-			<div id="gameTiles">
-				<img id="tile1" src="img/unflipped_tile.png"> 
-				<img id="tile2" src="img/unflipped_tile.png"> 
-				<img id="tile3" src="img/unflipped_tile.png">
-				<br>
-				<img id="tile4" src="img/unflipped_tile.png"> 
-				<img id="tile5" src="img/unflipped_tile.png"> 
-				<img id="tile6" src="img/unflipped_tile.png">
-				<br>
-				<img id="tile7" src="img/unflipped_tile.png"> 
-				<img id="tile8" src="img/unflipped_tile.png"> 
-				<img id="tile9" src="img/unflipped_tile.png">
-			</div>
-			<div>
-				<button>RESET</button>
-			</div>
+		</main>
+		<div class="tubbs">
+			<img src="img/tubbs.png">
+			<p>Score X: <span class="scoreX">0</span><br>
+			Score O: <span class="scoreY">0</span></p>
 		</div>
-	</main>
-	<div><p><img src="img/tubbs.png">Score:0</p></div>
-	<script src="js/game.js"></script>
+	</div>
+	<script src="js/game.js">
+	</script>
 </body>
 </html>

@@ -50,11 +50,17 @@ h1 {
     display: inline;
 }
 
-p {
+.tubbs, p {
     position: fixed;
     bottom: 0;
     Left: 0;
     color: black;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: bolder;
+}
+
+p {
+    left: 15%;
+    bottom: 49%;
+    color:black;
 }
